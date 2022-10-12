@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(0, 0, 0);
+
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+video{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.progress{
+    width: 500px;
+    height: 10px;
+    border: rgb(42, 4, 255) 2px solid;
+    box-shadow: 2px 2px 20px rgb(42, 4, 255);
+    border-radius: 5px;
+    
+}
+.progress:hover{
+    box-shadow: 2px 2px 20px rgb(0, 0, 0);
+}
+.progress > div{
+    background-color: rgb(25, 0, 255);
+    height: 100%;
+    text-align: right;
+    font-size: 10px;
+    color: white;
+
+}
+.progress > div:hover{
+    background-color: rgb(0, 0, 0);
+}
+.controls {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+
+}
+button{
+    background-color: rgb(223, 230, 253);
+    padding: 5px;
+    border:rgb(255, 255, 255) 1px solid;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+button:active{
+    background-color: rgb(17, 0, 255);
+}
+#volume{
+    height: 30px;
+    width: 10px;
+    display: flex;
+    border: 1px solid white;
+
+}
+#volume > div{
+    width: 10px;
+    background-color: rgb(5, 29, 253);
+}
